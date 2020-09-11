@@ -1,0 +1,15 @@
+{
+    "name": "SpECTRE",
+    "image": "nilsleiffischer/spectre-deploy:latest",
+    "extensions": [
+        "ms-python.python",
+        "ms-vsliveshare.vsliveshare",
+        "redhat.vscode-yaml",
+        "stkb.rewrap",
+        "streetsidesoftware.code-spell-checker",
+    ],
+    "settings": {
+        "python.pythonPath": "/usr/bin/python3",
+        "python.formatting.provider": "yapf"
+    }
+}
