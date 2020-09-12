@@ -13,6 +13,7 @@ RUN git clone https://github.com/sxs-collaboration/spectre \
     -D CMAKE_C_COMPILER=clang-10 \
     -D CMAKE_CXX_COMPILER=clang++-10 \
     -D CMAKE_Fortran_COMPILER=gfortran-10 \
+    -D OVERRIDE_ARCH=x86-64 \
     -D CHARM_ROOT=/work/charm_6_10_2/multicore-linux-x86_64-clang \
     -D CMAKE_BUILD_TYPE=Release \
     -D DEBUG_SYMBOLS=OFF \
