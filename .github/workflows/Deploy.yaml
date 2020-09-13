@@ -1,7 +1,11 @@
 
 name: Deploy SpECTRE
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    # Sundays at 00:00
+    - cron: '0 0 * * 0'
 
 jobs:
   deploy:
